@@ -1,5 +1,6 @@
 import Link from "next/link"
 import './globals.css';
+import 'bootswatch/dist/flatly/bootstrap.css';
 
 export default function RootLayout({
   children,
@@ -9,11 +10,9 @@ export default function RootLayout({
   return (
     <html>
       <body>
-        <main>
-          <nav>
-            <Link href="/">
-              Home
-            </Link>
+        <nav className="navbar navbar-expand-lg bg-danger text-uppercase">
+          <div className="container">
+            <Link className="navbar-brand" href="/">The Girls</Link>
             <Link href="/about">
               About
             </Link>
@@ -26,10 +25,12 @@ export default function RootLayout({
             <Link href="/contact">
               Contact
             </Link>
-          </nav>
+          </div>
+        </nav>
+        <main>
           {children}
         </main>
       </body>
-    </html>
+    </html >
   )
 }
