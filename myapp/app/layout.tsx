@@ -9,11 +9,17 @@ export default function RootLayout({
 }) {
   return (
     <html>
+      <head>
+      <script src="https://kit.fontawesome.com/2c55689878.js"></script>
+      <title>The Girls</title>
+      </head>
       <body>
-        <nav className="navbar navbar-expand-lg bg-danger text-uppercase">
-          <div className="container">
-            <Link className="navbar-brand" href="/"><img src="/assets/TheGirlsTransparent.png" width="180px" height="50px"></img></Link>
-            <div>
+        <nav className="navbar navbar-expand-lg text-uppercase d-flex justify-content-center">
+          <div className="container ">
+            <div className="container">
+            <Link className="navbar-brand" href="/"><img src="/assets/TheGirlsTransparent1.png" width="180px" height="50px"></img></Link>
+            </div>
+            <div className="container">
             <Link href="/about" className="p-3">
               About
             </Link>
@@ -23,17 +29,12 @@ export default function RootLayout({
             <Link href="/media" className="p-3">
               Media
             </Link>
-            <Link href="/contact" className="p-3">
-              Contact
-            </Link>
             </div>
-            <div>
-              <div>
-                <a href="https://www.instagram.com/the__girls77/" target="_blank">Insta</a>
-                <a href="https://open.spotify.com/artist/4O5HTw3xKD1c8iSrjplBGU?si=gWQIts7dQxW4mAg7PD8N0A" target="_blank">Spot</a>
-                <a href="https://www.youtube.com/@thegirls7723" target="_blank">YouT</a>
+              <div className="container">
+                <a href="https://www.instagram.com/the__girls77/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
+                <a href="https://open.spotify.com/artist/4O5HTw3xKD1c8iSrjplBGU?si=gWQIts7dQxW4mAg7PD8N0A" target="_blank"><i className="fa-brands fa-spotify"></i></a>
+                <a href="https://www.youtube.com/@thegirls7723" target="_blank"><i className="fa-brands fa-youtube"></i></a>
               </div>
-            </div>
           </div>
         </nav>
         <main>

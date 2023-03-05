@@ -1,10 +1,10 @@
 
 export default async function AboutPage() {
   return (
-    <div>
-      <main id="about">
+    <div >
+      <main id="about" style={{backgroundImage: 'url("/assets/3G3A7910.jpg")'}}>
         <div className="container mb-3">
-          <div className="px-2 py-2 text-center">
+          <div className="px-2 py-2 text-center" >
             <img className="d-block mx-auto mb-4" src="/assets/Vintage_16-02-2023_18h16m34s.png" alt="" width="200"></img>
             <h1 className="display-5 fw-bold">About Us</h1>
             <div className="col-lg-6 mx-auto">
