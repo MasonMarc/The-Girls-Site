@@ -22,6 +22,10 @@ main{
 nav{
   background-color: #F4F3F8;
 }
+footer{
+  background-color: black;
+  color: white;
+}
 i{
   font-size: 25px;
   padding: 5px;
