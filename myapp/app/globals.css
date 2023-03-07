@@ -30,3 +30,38 @@ i{
   font-size: 25px;
   padding: 5px;
 }
+
+#quote{
+  font-size: 50px;
+  padding: 5px;
+  width: 120%;
+  color: black;
+}
+
+#feature{
+  height: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  #summary{
+    width: 75%;
+    position: relative;
+    left: 60px;
+  }
+  #quote{
+    width: 75%;
+    position: relative;
+    left: 60px;
+  }
+  #musicTitle{
+    color: #F4F3F8;
+  }
+  footer{
+    position: relative;
+    top: 2000px;
+    width: 460px;
+  }
+
+
+  
+}

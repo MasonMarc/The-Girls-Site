@@ -3,7 +3,7 @@ export default async function MusicPage() {
     <div className="spotify-embeds m-auto" style={{backgroundImage: 'url("/assets/3G3A8112.jpg")'}}>
       <div className="container m-auto">
         <div className="container p-5 m-auto">
-          <h2 className="text-center">Music</h2>
+          <h2 className="text-center" id="musicTitle">Music</h2>
         </div>
         <div className="row">
           <div className="spotify-embed col-sm-6 display-block ms-auto me-auto"><iframe src="https://open.spotify.com/embed/track/3n5eoGIxszXahNClKUq7iS?utm_source=generator" width="100%" height="352" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
