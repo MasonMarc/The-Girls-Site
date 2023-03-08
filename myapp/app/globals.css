@@ -40,7 +40,10 @@ i{
 
 #feature{
   height: 50%;
+  position: relative;
+  left: 75px;
 }
+
 
 @media only screen and (max-width: 600px) {
   #summary{
@@ -57,8 +60,8 @@ i{
     color: #F4F3F8;
   }
   footer{
-    position: relative;
-    top: 2000px;
+    position: absolute;
+    bottom: auto;
     width: 460px;
   }
 
