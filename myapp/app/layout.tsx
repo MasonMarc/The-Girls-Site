@@ -31,11 +31,11 @@ export default function RootLayout({
                 Media
               </Link>
             </div>
-            <div className="container">
+            <div className="container" id="iconBar">
               <a href="https://www.instagram.com/the__girls77/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
               <a href="https://open.spotify.com/artist/4O5HTw3xKD1c8iSrjplBGU?si=gWQIts7dQxW4mAg7PD8N0A" target="_blank"><i className="fa-brands fa-spotify"></i></a>
               <a href="https://www.youtube.com/@thegirls7723" target="_blank"><i className="fa-brands fa-youtube"></i></a>
-              <a href="mailto:" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+              <a href="mailto:jpeatles@gmail.com" target="_blank" className="btn btn-border btn-primary" id="bookingBtn">Booking</a>
             </div>
           </div>
         </nav>
