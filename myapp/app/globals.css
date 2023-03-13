@@ -4,15 +4,9 @@
 
 html,
 body {
-  padding: 0;
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
     Helvetica Neue, sans-serif;
   background-color: #F4F3F8;
-}
-
-.landing{
-  height: 50em;
 }
 
 main{
@@ -66,10 +60,5 @@ i{
   }
   #musicTitle{
     color: #F4F3F8;
-  }
-  footer{
-    position: absolute;
-    bottom: auto;
-    width: 460px;
   }
 }

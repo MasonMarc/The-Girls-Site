@@ -1,4 +1,5 @@
 import Link from "next/link"
+import './reset.css';
 import './globals.css';
 import 'bootswatch/dist/lux/bootstrap.css';
 
@@ -41,7 +42,7 @@ export default function RootLayout({
         <main>
           {children}
         </main>
-        <footer className="navbar navbar-expand-lg text-uppercase d-flex justify-content-center">
+        <footer className="navbar navbar-expand-lg text-uppercase d-flex justify-content-center" style={{ position: "relative", bottom: 0, width:"100%" }}>
             <div className="container ">
               <div className="container">
                 <Link className="navbar-brand" href="/"><img src="/assets/TheGirlsTransparent1White.png" width="180px" height="55px"></img></Link>
