@@ -44,6 +44,11 @@ i{
   left: 75px;
 }
 
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
 
 @media only screen and (max-width: 600px) {
   #summary{
@@ -56,6 +61,9 @@ i{
     position: relative;
     left: 60px;
   }
+  #feature{
+    left: 0px;
+  }
   #musicTitle{
     color: #F4F3F8;
   }
@@ -64,7 +72,4 @@ i{
     bottom: auto;
     width: 460px;
   }
-
-
-  
 }

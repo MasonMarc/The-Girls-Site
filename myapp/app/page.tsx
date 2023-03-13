@@ -1,5 +1,5 @@
 
-
+// make p elements and move them with absolute positioning. 
 
 export default function HomePage() {
   return (
